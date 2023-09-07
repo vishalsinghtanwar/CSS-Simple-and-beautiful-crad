@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+         .contrnare{
+          width: 100vw;
+          height: 100vh;
+          background-color:#64b3f4 ;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+    }
+    .cards{
+        background-color: white;
+        width:  270px;
+        height: 430px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .cards img{
+        width: 100%;
+        height: 30%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .TextBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 75%;
+        text-align: center;
+    }
+    .TextBox h2{
+        padding-top: 10px;
+    }
+    .TextBox p{
+        font-size: 0.8rem;
+    }
+    #AmaountBox{
+        width: 80%;
+        height: 10%;
+        background-color: rgb(139, 179, 179);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    
+    #pymentbutton{
+        width: 80%;
+        height: 10%;
+        background-color: rgb(139, 179, 179);
+        border-radius: 10px;
+        margin-top: 10px;
+        color: white;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;;
+    }
+    .CansalOder{
+          font-weight: bold;
+          /* text-decoration: none; */
+          margin-top: 25px;
+    }
+
+    .CansalOder a{
+        text-decoration: none;
+    }
+    #leftbox{
+        width: fit-content;
+        display: flex;
+        gap: 10px;
+        height: 100%;
+       padding-top: 7px;
+    }
+    #imagebox{
+        width: 3rem;
+        height: 6rem;
+    }
+    .amountBox2{
+        font-size: 0.7rem;
+    }
+    </style>
+</head>
+<body>
+    <div class="contrnare">
+        <div class="cards">
+            <img src="ai img.jpg" alt="">
+            <div class="TextBox">
+               <h2>Oder Summary</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit optio voluptas quae a, consectetur nostrum, provident 
+                non quibusdam praesentium .</p>
+            </div>
+
+            <div id="AmaountBox">
+
+             <div id="leftbox">
+                <div id="imagebox"> 
+                    <img src="musicicon.PNG" alt="">
+                </div>
+                  <div class="amountBox2">
+                    <p>Amaount</p>
+                    <p>$99.99 </p>
+                  </div>
+               
+             </div>
+
+             <div id="rightbox">
+             <a href="#">Change</a>
+             </div>
+            </div>
+
+            <button id="pymentbutton">
+             Procid To Payment
+            </button>
+            <div class="CansalOder"> 
+                <a href="#">Cansal Oder</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
